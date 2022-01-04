@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .Page-Title {
+    @apply capitalize text-[#283C63] text-xl sm:text-3xl text-center pb-4 pt-12;
+  }
+  .Form-label {
+    @apply block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2;
+  }
+  .Form-input {
+    @apply appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-[#283C63] mb-2;
+  }
+}
