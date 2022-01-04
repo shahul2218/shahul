@@ -15,6 +15,7 @@ const Contact = () => {
                 type="text"
                 placeholder="Shahul Hameed"
                 title="Name Field"
+                name="full_name"
               />
             </div>
             <div className="w-full md:w-1/2 px-3">
@@ -27,6 +28,7 @@ const Contact = () => {
                 type="email"
                 placeholder="shahul*****@gmail.com"
                 title="Email ID Field"
+                name="email_id"
               />
             </div>
             <div className="w-full md:w-1/2 px-3">
@@ -40,6 +42,7 @@ const Contact = () => {
                 pattern="[0-9]{10}"
                 placeholder="77804****1"
                 title="Mobile Number Field"
+                name="phone_number"
               />
             </div>
             <div className="w-full md:w-1/2 px-3">
@@ -52,6 +55,7 @@ const Contact = () => {
                 type="text"
                 placeholder="I have a project"
                 title="Subject Field"
+                name="subject"
               />
             </div>
             <div className="w-full px-3">
@@ -62,7 +66,8 @@ const Contact = () => {
                 rows="5"
                 className="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-[#283C63]"
                 placeholder="Enter Your Message"
-                title="Message Field"></textarea>
+                title="Message Field"
+                name="message"></textarea>
             </div>
             <div className="w-full px-3 flex items-center justify-center my-2">
               <button
