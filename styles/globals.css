@@ -6,6 +6,9 @@
   .Page-Title {
     @apply capitalize text-[#283C63] text-xl sm:text-3xl text-center pb-4 pt-12;
   }
+  .Page-Subitle {
+    @apply capitalize text-[#283C63] text-xl sm:text-lg text-center pb-[1.5rem] animate-pulse;
+  }
   .Form-label {
     @apply block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2;
   }
